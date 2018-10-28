@@ -1,5 +1,8 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
+//import styles directly into main react file
+//when using webpack
+import 'index.scss';
 
 const App = () => {
 	return (
